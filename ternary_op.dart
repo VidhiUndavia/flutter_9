@@ -1,5 +1,5 @@
 void main() {
-  int a = 20, b = 30;
+  int a = 50, b = 30;
 
   String ans = (a > b) ? "A is gratest" : "B is gratest";
   print(ans);
