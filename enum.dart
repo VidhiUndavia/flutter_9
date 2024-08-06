@@ -13,3 +13,9 @@ void main() {
 
   
 }
+//output
+// 1
+// 0
+// 2
+// signal.red
+// signal.yellow

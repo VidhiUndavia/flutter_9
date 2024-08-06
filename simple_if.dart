@@ -8,3 +8,7 @@ void main() {
     print("You have to wear raincoat");
   }
 }
+ //output
+//  Enter the input
+// 1
+// You have to wear raincoat
