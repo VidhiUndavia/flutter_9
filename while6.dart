@@ -3,14 +3,15 @@
 import 'dart:io';
 
 void main() {
-  double num=0.0, reminder=0.0;
-  num = double.parse(stdin.readLineSync().toString());
+  var num=0, reminder=0;
+  num = int.parse(stdin.readLineSync().toString());
 
-  double rev = 0;
-  while (num >= 0) {
+ int rev = 0;
+  while (num > 0) {
     reminder = num % 10;
-    num = num / 10;
+    num = num ~/ 10;
     rev = (rev * 10) + reminder;
+    
   }
   print(rev);
 }

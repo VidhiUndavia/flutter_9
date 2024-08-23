@@ -1,4 +1,4 @@
-import 'dart:io';
+// prime series from 1 to 100
 
 void main() {
   var num;

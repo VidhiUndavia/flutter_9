@@ -1,3 +1,4 @@
+// wap to check that given number is prime or not
 import 'dart:io';
 
 void main() {
