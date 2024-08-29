@@ -1,11 +1,11 @@
 //WAP TO FIND OUT THE SIMPLE INTEREST
 //I=N*P*R/100
-//with argument and with return value
+//with argumet no return value
 import 'dart:io';
 
-double calculateInterest(int p, double r, int n) {
+void calculateInterest(int p, double r, int n) {
   double result = n * p * r / 100;
-  return result;
+  print("Simple Interest = $result");
 }
 
 void main() {
@@ -20,6 +20,6 @@ void main() {
   print("Principal Amount = $principle");
   print("Rate = $rate");
   print("Number of Years = $no_of_years");
-  var interest = calculateInterest(principle, rate, no_of_years);
-  print("Simple Interest = $interest");
+  calculateInterest(principle, rate, no_of_years);
+  
 }
