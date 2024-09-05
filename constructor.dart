@@ -2,11 +2,12 @@ import 'dart:io';
 
 class Rectangle {
   var height, width;
-  Rectangle() {
+  Rectangle([int height=0,int width=0]) {
     print("Constructor called....");
-    this.height = 0;
-    this.width = 0;
+    this.height =height;
+    this.width =width;
   }
+  
   void getData() {
     print("Enter Height of the Rectangle = ");
     height = int.parse(stdin.readLineSync().toString());

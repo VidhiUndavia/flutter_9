@@ -7,7 +7,8 @@ class Triangle {
     this.base = base;
     this.height = height;
   }
-  int get getBase {
+  int get getBase
+  {
     return base;
   }
 
