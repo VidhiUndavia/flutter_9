@@ -1,31 +1,31 @@
 import 'dart:io';
 
 class Triangle {
-  int base = 0, height = 0;
+  int _base = 0, _height = 0;
   Triangle([int base = 1, int height = 1]) {
     print("Base = $base and Height = $height");
-    this.base = base;
-    this.height = height;
+    this._base = base;
+    this._height = height;
   }
   int get getBase
   {
-    return base;
+    return _base;
   }
 
   int get getHeight {
-    return height;
+    return _height;
   }
 
   set setBase(int base) {
-    this.base = base;
+    this._base = base;
   }
 
   set setHeight(int height) {
-    this.height = height;
+    this._height = height;
   }
 
   double area() {
-    return base * height * 0.5;
+    return _base * _height * 0.5;
   }
 }
 
